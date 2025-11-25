@@ -33,16 +33,20 @@
                     </div>
                 </div>
                 <div class="architecture-content">
+                    <h3>Architecture Overview</h3>
+                    <p>
+                        SpendWise is built using MVVM architecture to keep user interface elements separate from application logic. ViewModels handle data processing and state management while repositories interact with Firebase for authentication, expense data, and budgets.
+                    </p>
                     <h3>Design Patterns</h3>
-                    <p class="placeholder-text">
-                        [Short explanation of patterns used such as Factory and Strategy.]
+                    <p>
+                        The project includes design pattern use such as a Factory pattern for creating chart components and a Strategy pattern for switching between sorting behaviors in expense lists.
                     </p>
                     <h3>Architecture Layers</h3>
-                    <ul class="placeholder-list">
-                        <li>[UI layer description]</li>
-                        <li>[ViewModels description]</li>
-                        <li>[Repositories description]</li>
-                        <li>[Data storage description]</li>
+                    <ul>
+                        <li><strong>UI Layer:</strong> Activities and Fragments that display the user interface and handle user interactions</li>
+                        <li><strong>ViewModels:</strong> Handle data processing and state management, keeping UI separate from business logic</li>
+                        <li><strong>Repositories:</strong> Interact with Firebase for authentication, expense data, and budgets</li>
+                        <li><strong>Data Storage:</strong> Firebase backend for real-time data synchronization and cloud storage</li>
                     </ul>
                 </div>
             </div>
